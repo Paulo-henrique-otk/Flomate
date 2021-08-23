@@ -1,6 +1,6 @@
 let paragrafos = document.querySelectorAll(".ClimaLayout__text")
 const horas = new Date().getHours();
-if(horas>18){
+if(horas>18 || horas<6){
 for (let index = 0; index < paragrafos.length; index++) {
     paragrafos[index].style.color = "white"
 }

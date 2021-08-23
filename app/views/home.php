@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?=asset("css/home.css")?>">
@@ -12,9 +12,9 @@
     <main class="ClimaLayout">
     <progress class="ClimaLayout__progress" value="0" max="100">Barra de Progresso </progress>
      <div class="ClimaLayout__item">
-     <p class="ClimaLayout__text"  >Temperatura : 45°C</p>
-     <p class="ClimaLayout__text">Clima : Ceu Escuro</p>
-     <p class="ClimaLayout__text">Data : 22/08/2021</p>
+     <p class="ClimaLayout__text"  >Temperatura : <?=$temperaturaAtual?> °C</p>
+     <p class="ClimaLayout__text">Clima : <?=$climaAtual?></p>
+     <p class="ClimaLayout__text">Data : <?=date("d/m/Y")?></p>
 
      </div>
     </main>

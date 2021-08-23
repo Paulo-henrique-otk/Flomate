@@ -3,7 +3,7 @@ function atualizarBarraDeProgresso(){
     if(progress.value<100){
    progress.value+=1;
     }else{
-        location.reload();
+        progress.value = 0;
     }
     }
 
