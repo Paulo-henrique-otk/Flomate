@@ -1,0 +1,22 @@
+{
+    "name": "Paulo/FloMate",
+    "description": "Aplicação que consome a api do openweathermap e obtém os dados meteorológicos da cidade de Floriano",
+    "authors": [
+        {
+            "name": "Paulo Henrique",
+            "role": "Desenvolvedor",
+            "email": "paulohenriquelg3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app"
+        },
+    "files": [
+        "Config/config.php"
+    ]
+    },
+    "require": {
+        
+    }
+}
