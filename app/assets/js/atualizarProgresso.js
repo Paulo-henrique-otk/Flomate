@@ -8,3 +8,4 @@ function atualizarBarraDeProgresso(){
     }
 
 setInterval(atualizarBarraDeProgresso,200)
+

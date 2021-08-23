@@ -4,12 +4,12 @@ namespace App\Controllers;
 use League\Plates\Engine;
 
 class ScreensRoutes{
-    private $view;
+private $view;
 public function __construct()
 {
-$this->view = Engine::create("../views","php");
+$this->view = Engine::create( __DIR__ . "/../views","php");
 }
 public function home(){
-$this->view->render("home");
+ echo $this->view->render("home");
 }
 }
