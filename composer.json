@@ -1,5 +1,5 @@
 {
-    "name": "Paulo/FloMate",
+    "name": "paulo/flomate",
     "description": "Aplicação que consome a api do openweathermap e obtém os dados meteorológicos da cidade de Floriano",
     "authors": [
         {
@@ -17,6 +17,6 @@
     ]
     },
     "require": {
-           
+        "coffeecode/router":"1.0.*"   
     }
 }
