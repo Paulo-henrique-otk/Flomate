@@ -1,6 +1,6 @@
 let jsAddnumber = document.querySelector(".js-addnumber")
 let numberAdd = 0;
-function addNumber(){
+function addNumberProgress(){
 numberAdd+=1;
 jsAddnumber.innerHTML=numberAdd;
 }
@@ -10,9 +10,8 @@ function atualizarBarraDeProgresso(){
    progress.value+=1;
     }else{
      progress.value = 0;
-     addNumber();
+     addNumberProgress();
     }
     }
-
-setInterval(atualizarBarraDeProgresso,200)
+setInterval(atualizarBarraDeProgresso,100)
 
