@@ -14,6 +14,8 @@ public function home(){
 $clima = new climaRepositor();
 $temperaturaAtual = $clima->getResponse()["main"]["temp"];
 $climaAtual = $clima->getResponse()["weather"][0]["description"];
- echo $this->view->render("home",["climaAtual"=>$climaAtual,"temperaturaAtual"=>$temperaturaAtual]);
+ echo $this->view->render("home",["climaAtual"=>$climaAtual,
+ "temperaturaAtual"=>$temperaturaAtual]);
 }
+
 }

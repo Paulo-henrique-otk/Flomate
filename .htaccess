@@ -1,6 +1,14 @@
 RewriteEngine On
 Options All -Indexes
 
+<FilesMatch "\.json$">
+Deny From All
+</FilesMatch>
+
+<FilesMatch "\.lock$">
+Deny From All
+</FilesMatch>
+
 # ROUTER URL Rewrite
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
