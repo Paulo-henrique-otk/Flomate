@@ -9,7 +9,6 @@ document.body.style.backgroundSize = "100%"
 }else{
     for (let index = 0; index < paragrafos.length; index++) {
     paragrafos[index].style.color = "#FFD700"
-    paragrafos[index].style.textShadow = "none";
 }
 }
 

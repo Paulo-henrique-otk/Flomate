@@ -3,7 +3,7 @@ namespace Source;
 
 class climaRepositor{
  private string $cidade = "Floriano,BR";
- private string $apiKey = "c8dacc5576f0ef99713cc1b6ce533cda";   
+ private string $apiKey = "Sua Chave API";   
  private string $codigoEstado = "PI";
  private string $codigoPais = "BRA";
  private $params = [];
